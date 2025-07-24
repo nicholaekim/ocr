@@ -1,0 +1,30 @@
+# PDF Processing Pipeline - Git Ignore
+
+# Processing directories
+raw_pdfs/*.pdf
+outputs/*.txt
+used_pdfs/*.pdf
+temp/*
+logs/*.log
+
+# Python virtual environments
+ocr_env/
+handwriting_env/
+__pycache__/
+*.pyc
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Keep directory structure but ignore contents
+!raw_pdfs/.gitkeep
+!outputs/.gitkeep
+!used_pdfs/.gitkeep
+!temp/.gitkeep
+!logs/.gitkeep
